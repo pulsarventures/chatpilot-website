@@ -1,0 +1,23 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="12" fill="#044C30"/>
+  <!-- Robot/AI icon for Autonomy -->
+  <rect x="18" y="16" width="12" height="16" rx="2" fill="white"/>
+  <!-- Robot head -->
+  <rect x="20" y="12" width="8" height="6" rx="1" fill="white"/>
+  <!-- Eyes -->
+  <circle cx="22" cy="15" r="1" fill="#044C30"/>
+  <circle cx="26" cy="15" r="1" fill="#044C30"/>
+  <!-- Antenna -->
+  <circle cx="24" cy="10" r="1" fill="white"/>
+  <path d="M24 11V12" stroke="white" stroke-width="1"/>
+  <!-- Arms -->
+  <rect x="14" y="20" width="3" height="8" rx="1" fill="white"/>
+  <rect x="31" y="20" width="3" height="8" rx="1" fill="white"/>
+  <!-- Legs -->
+  <rect x="20" y="32" width="3" height="6" rx="1" fill="white"/>
+  <rect x="25" y="32" width="3" height="6" rx="1" fill="white"/>
+  <!-- Body details -->
+  <circle cx="24" cy="22" r="1" fill="#044C30"/>
+  <rect x="21" y="26" width="6" height="1" fill="#044C30"/>
+  <rect x="21" y="28" width="6" height="1" fill="#044C30"/>
+</svg>

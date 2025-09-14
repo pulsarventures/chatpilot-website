@@ -1,0 +1,18 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="12" fill="#044C30"/>
+  <!-- Sliders/Controls for Chat Controls -->
+  <rect x="14" y="16" width="20" height="4" rx="2" fill="white"/>
+  <circle cx="18" cy="18" r="3" fill="#044C30"/>
+  <rect x="14" y="24" width="20" height="4" rx="2" fill="white"/>
+  <circle cx="26" cy="26" r="3" fill="#044C30"/>
+  <rect x="14" y="32" width="20" height="4" rx="2" fill="white"/>
+  <circle cx="22" cy="34" r="3" fill="#044C30"/>
+  <!-- Control labels -->
+  <rect x="12" y="14" width="2" height="2" fill="white"/>
+  <rect x="12" y="22" width="2" height="2" fill="white"/>
+  <rect x="12" y="30" width="2" height="2" fill="white"/>
+  <rect x="34" y="14" width="2" height="2" fill="white"/>
+  <rect x="34" y="22" width="2" height="2" fill="white"/>
+  <rect x="34" y="30" width="2" height="2" fill="white"/>
+</svg>
+

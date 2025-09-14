@@ -214,6 +214,16 @@ section.visible {
     transform: translateY(0);
 }
 
+/* Section Icons */
+.section-icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .section-title {
     font-size: 2.5rem;
     font-weight: 700;
@@ -385,6 +395,7 @@ section.visible {
     transition: all 0.3s ease;
     border: 1px solid #e5e7eb;
     border-left: 4px solid #044C30;
+    text-align: center;
 }
 
 .feature-card:hover {
@@ -441,6 +452,120 @@ section.visible {
 .architecture-card p {
     color: #030303;
     line-height: 1.6;
+}
+
+/* Integrations Section */
+.integrations-section {
+    background: #f9fafb;
+    padding: 100px 0;
+}
+
+.integrations-circle {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-circle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #044C30;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    z-index: 10;
+    box-shadow: 0 8px 32px rgba(4, 76, 48, 0.3);
+}
+
+.center-circle h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.center-circle p {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.integration-item {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+}
+
+.integration-1 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.integration-2 {
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.integration-3 {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.integration-4 {
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.integration-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: 2px solid #FFB74D;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.integration-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 32px rgba(255, 183, 77, 0.2);
+    border-color: #044C30;
+}
+
+.integration-card .section-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0.75rem;
+}
+
+.integration-card h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #020202;
+}
+
+.integration-card p {
+    font-size: 0.8rem;
+    color: #030303;
+    line-height: 1.4;
+    margin: 0;
 }
 
 /* Advantage Section */
@@ -622,6 +747,48 @@ section.visible {
     }
 }
 
+@media (max-width: 768px) {
+    .integrations-circle {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .center-circle {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .center-circle h3 {
+        font-size: 1.2rem;
+    }
+    
+    .center-circle p {
+        font-size: 0.8rem;
+    }
+    
+    .integration-item {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .integration-card {
+        padding: 1rem;
+    }
+    
+    .integration-card .section-icon {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .integration-card h4 {
+        font-size: 0.9rem;
+    }
+    
+    .integration-card p {
+        font-size: 0.7rem;
+    }
+}
+
 @media (max-width: 480px) {
     .hero-title {
         font-size: 2rem;
@@ -640,5 +807,20 @@ section.visible {
     .architecture-card,
     .advantage-card {
         padding: 1.5rem;
+    }
+    
+    .integrations-circle {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .center-circle {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .integration-item {
+        width: 100px;
+        height: 100px;
     }
 }

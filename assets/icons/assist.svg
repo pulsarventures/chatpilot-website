@@ -1,0 +1,9 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="12" fill="#044C30"/>
+  <!-- Magnifying glass for Assist/Search -->
+  <circle cx="22" cy="22" r="8" stroke="white" stroke-width="2" fill="none"/>
+  <path d="M28.5 28.5L34 34" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <!-- Question mark inside -->
+  <path d="M22 18C20.34 18 19 19.34 19 21H21C21 20.45 21.45 20 22 20C22.55 20 23 20.45 23 21C23 22 22 22.5 22 24H24C24 22.5 25 22 25 21C25 19.34 23.66 18 22 18Z" fill="white"/>
+  <circle cx="22" cy="26" r="1" fill="white"/>
+</svg>

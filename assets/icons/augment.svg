@@ -1,0 +1,12 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="12" fill="#044C30"/>
+  <!-- Document with plus for Augment -->
+  <path d="M16 12H28L32 16V34C32 35.1 31.1 36 30 36H16C14.9 36 14 35.1 14 34V14C14 12.9 14.9 12 16 12Z" fill="white"/>
+  <path d="M28 12V16H32L28 12Z" fill="#044C30"/>
+  <!-- Plus symbol -->
+  <path d="M22 20H26V22H22V20Z" fill="#044C30"/>
+  <path d="M23 19H25V23H23V19Z" fill="#044C30"/>
+  <!-- Document lines -->
+  <path d="M18 26H28V28H18V26Z" fill="#044C30"/>
+  <path d="M18 30H24V32H18V30Z" fill="#044C30"/>
+</svg>

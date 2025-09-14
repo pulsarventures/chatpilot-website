@@ -1,0 +1,11 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="12" fill="#044C30"/>
+  <!-- Tools/Wrench icon for Internal Support -->
+  <path d="M22.61 19.39C23 19 23 18.37 22.61 18L21.54 16.93C21.15 16.54 20.52 16.54 20.13 16.93L18 19.06L16.93 18C16.54 17.61 15.91 17.61 15.52 18L14.45 19.07C14.06 19.46 14.06 20.09 14.45 20.48L15.52 21.55L13.39 23.68C13 24.07 13 24.7 13.39 25.09L14.46 26.16C14.85 26.55 15.48 26.55 15.87 26.16L18 24.03L19.07 25.1C19.46 25.49 20.09 25.49 20.48 25.1L21.55 24.03C21.94 23.64 21.94 23.01 21.55 22.62L20.48 21.55L22.61 19.39Z" fill="white"/>
+  <!-- Screwdriver -->
+  <path d="M28 14L34 20L32 22L30 20L28 22L26 20L28 18L26 16L28 14Z" fill="white"/>
+  <!-- Additional tool elements -->
+  <path d="M12 30H36V32H12V30Z" fill="white"/>
+  <circle cx="16" cy="34" r="2" fill="white"/>
+  <circle cx="32" cy="34" r="2" fill="white"/>
+</svg>

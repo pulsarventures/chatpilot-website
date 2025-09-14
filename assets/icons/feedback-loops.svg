@@ -1,0 +1,19 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="12" fill="#044C30"/>
+  <!-- Circular feedback loop -->
+  <circle cx="24" cy="24" r="12" stroke="white" stroke-width="2" fill="none"/>
+  <!-- Feedback arrows -->
+  <path d="M24 12L26 14L24 16" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M36 24L34 26L36 28" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 36L22 34L24 32" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12 24L14 22L12 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Analytics/Data points -->
+  <circle cx="24" cy="16" r="2" fill="white"/>
+  <circle cx="32" cy="24" r="2" fill="white"/>
+  <circle cx="24" cy="32" r="2" fill="white"/>
+  <circle cx="16" cy="24" r="2" fill="white"/>
+  <!-- Center improvement indicator -->
+  <circle cx="24" cy="24" r="3" fill="white"/>
+  <path d="M22 24H26M24 22V26" stroke="#044C30" stroke-width="1"/>
+</svg>
+

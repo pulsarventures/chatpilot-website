@@ -1,0 +1,13 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="12" fill="#044C30"/>
+  <!-- Chat bubble for Natural Language Chat -->
+  <path d="M16 12C12.69 12 10 14.69 10 18V26C10 29.31 12.69 32 16 32H20L24 36L28 32H32C35.31 32 38 29.31 38 26V18C38 14.69 35.31 12 32 12H16Z" fill="white"/>
+  <!-- AI/Brain elements -->
+  <circle cx="20" cy="20" r="2" fill="#044C30"/>
+  <circle cx="28" cy="20" r="2" fill="#044C30"/>
+  <path d="M18 24C18 22.9 18.9 22 20 22H28C29.1 22 30 22.9 30 24C30 25.1 29.1 26 28 26H20C18.9 26 18 25.1 18 24Z" fill="#044C30"/>
+  <!-- Language/speech waves -->
+  <path d="M14 16H16M14 18H16M14 20H16" stroke="#044C30" stroke-width="1"/>
+  <path d="M32 16H34M32 18H34M32 20H34" stroke="#044C30" stroke-width="1"/>
+</svg>
+

@@ -1,0 +1,13 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="12" fill="#044C30"/>
+  <!-- Workflow/Process arrows for Automate -->
+  <circle cx="16" cy="20" r="3" fill="white"/>
+  <circle cx="32" cy="20" r="3" fill="white"/>
+  <circle cx="24" cy="32" r="3" fill="white"/>
+  <!-- Arrows connecting the circles -->
+  <path d="M19 20H29M29 20L26 17M29 20L26 23" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 23L22 29M22 29L19 27M22 29L25 27" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M30 23L26 29M26 29L29 27M26 29L23 27" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Gear in center -->
+  <circle cx="24" cy="20" r="2" fill="white"/>
+</svg>

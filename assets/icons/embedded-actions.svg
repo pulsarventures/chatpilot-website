@@ -1,0 +1,18 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="12" fill="#044C30"/>
+  <!-- Integration/Connection for Embedded Actions -->
+  <rect x="12" y="16" width="8" height="8" rx="2" fill="white"/>
+  <rect x="28" y="16" width="8" height="8" rx="2" fill="white"/>
+  <rect x="20" y="28" width="8" height="8" rx="2" fill="white"/>
+  <!-- Connection arrows -->
+  <path d="M20 20H28M28 20L25 17M28 20L25 23" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 24V28M24 28L21 25M24 28L27 25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Action indicators -->
+  <circle cx="16" cy="20" r="1" fill="#044C30"/>
+  <circle cx="32" cy="20" r="1" fill="#044C30"/>
+  <circle cx="24" cy="32" r="1" fill="#044C30"/>
+  <!-- Integration symbols -->
+  <path d="M14 14H18M14 16H18M14 18H18" stroke="#044C30" stroke-width="1"/>
+  <path d="M30 14H34M30 16H34M30 18H34" stroke="#044C30" stroke-width="1"/>
+</svg>
+

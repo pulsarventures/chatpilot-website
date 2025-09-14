@@ -1,0 +1,16 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="12" fill="#044C30"/>
+  <!-- Shield for Secure Access -->
+  <path d="M24 12L16 16V24C16 30 20 35 24 36C28 35 32 30 32 24V16L24 12Z" fill="white"/>
+  <!-- Lock -->
+  <rect x="20" y="22" width="8" height="8" rx="1" fill="#044C30"/>
+  <path d="M22 22V18C22 16.9 22.9 16 24 16C25.1 16 26 16.9 26 18V22" stroke="#044C30" stroke-width="2" fill="none"/>
+  <!-- Key -->
+  <circle cx="26" cy="26" r="1" fill="#044C30"/>
+  <path d="M26 26H28" stroke="#044C30" stroke-width="1"/>
+  <!-- Security elements -->
+  <circle cx="18" cy="20" r="1" fill="#044C30"/>
+  <circle cx="30" cy="20" r="1" fill="#044C30"/>
+  <path d="M18 20L20 22M30 20L28 22" stroke="#044C30" stroke-width="1"/>
+</svg>
+

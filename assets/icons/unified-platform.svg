@@ -1,0 +1,26 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="12" fill="#FFB74D"/>
+  <!-- Unified Platform/Bridge -->
+  <rect x="14" y="20" width="20" height="8" rx="2" fill="white"/>
+  <!-- Platform elements -->
+  <rect x="16" y="22" width="4" height="4" rx="1" fill="#FFB74D"/>
+  <rect x="22" y="22" width="4" height="4" rx="1" fill="#FFB74D"/>
+  <rect x="28" y="22" width="4" height="4" rx="1" fill="#FFB74D"/>
+  <!-- Bridge connections -->
+  <path d="M12 16H14M34 16H36" stroke="white" stroke-width="2"/>
+  <path d="M12 32H14M34 32H36" stroke="white" stroke-width="2"/>
+  <!-- Connected elements -->
+  <circle cx="12" cy="16" r="2" fill="white"/>
+  <circle cx="36" cy="16" r="2" fill="white"/>
+  <circle cx="12" cy="32" r="2" fill="white"/>
+  <circle cx="36" cy="32" r="2" fill="white"/>
+  <!-- Platform indicators -->
+  <rect x="18" y="18" width="2" height="2" fill="white"/>
+  <rect x="24" y="18" width="2" height="2" fill="white"/>
+  <rect x="30" y="18" width="2" height="2" fill="white"/>
+  <rect x="18" y="30" width="2" height="2" fill="white"/>
+  <rect x="24" y="30" width="2" height="2" fill="white"/>
+  <rect x="30" y="30" width="2" height="2" fill="white"/>
+  <!-- Unity symbol -->
+  <circle cx="24" cy="26" r="1" fill="#FFB74D"/>
+</svg>

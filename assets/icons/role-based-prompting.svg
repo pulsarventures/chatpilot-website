@@ -1,0 +1,17 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="12" fill="#044C30"/>
+  <!-- Multiple user profiles for Role-based Prompting -->
+  <circle cx="16" cy="18" r="4" fill="white"/>
+  <path d="M12 26C12 22.69 14.69 20 18 20H14C17.31 20 20 22.69 20 26V28H12V26Z" fill="white"/>
+  <circle cx="32" cy="18" r="4" fill="white"/>
+  <path d="M28 26C28 22.69 30.69 20 34 20H30C33.31 20 36 22.69 36 26V28H28V26Z" fill="white"/>
+  <!-- Role indicators -->
+  <rect x="14" y="12" width="4" height="2" rx="1" fill="white"/>
+  <rect x="30" y="12" width="4" height="2" rx="1" fill="white"/>
+  <!-- Connection line -->
+  <path d="M20 20H28" stroke="white" stroke-width="2"/>
+  <!-- AI/Chat element -->
+  <circle cx="24" cy="32" r="3" fill="white"/>
+  <path d="M21 32H27M24 29V35" stroke="#044C30" stroke-width="1"/>
+</svg>
+
