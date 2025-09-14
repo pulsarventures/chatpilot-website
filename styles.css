@@ -772,20 +772,32 @@ section.visible {
     }
     
     .integration-card {
-        padding: 1rem;
+        padding: 0.75rem;
+        overflow: hidden;
+        word-wrap: break-word;
     }
     
     .integration-card .section-icon {
-        width: 32px;
-        height: 32px;
+        width: 28px;
+        height: 28px;
+        margin-bottom: 0.5rem;
     }
     
     .integration-card h4 {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
+        line-height: 1.2;
+        margin-bottom: 0.25rem;
     }
     
     .integration-card p {
-        font-size: 0.7rem;
+        font-size: 0.65rem;
+        line-height: 1.2;
+        margin: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
     }
 }
 
@@ -819,8 +831,89 @@ section.visible {
         height: 120px;
     }
     
+    .center-circle h3 {
+        font-size: 1rem;
+    }
+    
+    .center-circle p {
+        font-size: 0.7rem;
+    }
+    
     .integration-item {
         width: 100px;
         height: 100px;
+    }
+    
+    .integration-card {
+        padding: 0.5rem;
+    }
+    
+    .integration-card .section-icon {
+        width: 24px;
+        height: 24px;
+        margin-bottom: 0.25rem;
+    }
+    
+    .integration-card h4 {
+        font-size: 0.7rem;
+        line-height: 1.1;
+        margin-bottom: 0.2rem;
+    }
+    
+    .integration-card p {
+        font-size: 0.6rem;
+        line-height: 1.1;
+        -webkit-line-clamp: 2;
+    }
+}
+
+/* Extra small screens - stack layout */
+@media (max-width: 360px) {
+    .integrations-circle {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 2rem 0;
+    }
+    
+    .center-circle {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+        padding: 1rem;
+    }
+    
+    .integration-item {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    
+    .integration-card {
+        padding: 1rem;
+        height: auto;
+        min-height: 120px;
+    }
+    
+    .integration-card .section-icon {
+        width: 32px;
+        height: 32px;
+        margin-bottom: 0.75rem;
+    }
+    
+    .integration-card h4 {
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .integration-card p {
+        font-size: 0.8rem;
+        line-height: 1.4;
+        -webkit-line-clamp: unset;
+        display: block;
     }
 }
