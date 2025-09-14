@@ -1,0 +1,64 @@
+# GitHub Pages Configuration for ChatPilot.dev Clone
+
+# Site settings
+title: "ChatPilot.dev - AI-powered Chatbot + CoPilot"
+description: "AI-powered Chatbot + CoPilot that boosts user productivity by combining intelligent Q&A, document synthesis, and task execution."
+url: "https://pulsarventures.github.io"
+baseurl: "/chatpilot"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Include files
+include:
+  - _redirects
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title:output_ext
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Social media
+twitter_username: yourusername
+github_username: yourusername
+
+# Analytics (uncomment and add your tracking ID)
+# google_analytics: UA-XXXXXXXX-X
+
+# SEO
+author: "Pulsar Ventures"
+email: "admin@pulsarventures.co"
+calendly_url: "https://calendly.com/spradhip"
